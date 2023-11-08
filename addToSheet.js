@@ -18,7 +18,7 @@ async function addToSheet(values){
       const googleSheets = google.sheets({version: 'v4', auth : client});
 
 
-      const spreadsheetId = '1ohPZRbD_8hJ4V17isFAHhxz0QG-6S4_s_U84cMzRs_4';
+      const spreadsheetId = '';
 
       // get metadata about sheet
 
