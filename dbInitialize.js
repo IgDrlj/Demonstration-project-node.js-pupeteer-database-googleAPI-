@@ -8,7 +8,7 @@ function initializeDB(){
         host      : 'localhost',
         user      : 'root',
         password  : '',
-        database  : 'scraperdb'
+        database  : 'dbName'
     });
 
     return db;
