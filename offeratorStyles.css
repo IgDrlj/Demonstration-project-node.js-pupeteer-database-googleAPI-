@@ -1,0 +1,223 @@
+body{
+    background-color: #b4f5ff37;
+    margin: 0;
+}
+.container{
+    text-align:center;
+}
+img{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+.down-arrow{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+h2{
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input::first-line{
+    align: left;
+}
+.button-7 {
+    background-color: #0095ff;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.15385;
+    margin: 0;
+    outline: none;
+    padding: 8px .8em;
+    position: relative;
+    top: 10px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.button-7:hover,
+.button-7:focus {
+    background-color: #07c;
+}
+
+.button-7:focus {
+    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+    background-color: #0064bd;
+    box-shadow: none;
+}  
+.checkingH{
+    margin-top: 30px;
+}
+.textField{
+    border: 4px, solid, #0095ff;
+    border-radius: 3px;
+    height: 30px;
+    width: 300px;
+}
+.bannerUnderLine{
+    color: #323741;
+    background-color: #323741;
+    height: 5px;
+    width: 50%;
+    align: center;
+}
+.multi-selector{
+    width: max-content;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.select-field{
+    border: 1px solid black;
+    width : 300px;
+    position: relative;
+    align: center;
+}
+.select-field,.task,.list{
+    width: 100%;
+    background-color: white;
+}
+.down-arrow{
+    font-size: 1.2rem;
+    cursor: pointer;
+    transform: rotate(45deg);
+}
+.task{
+    display: block;
+    text-align: left;
+}
+.task:hover{
+    background-color: aliceblue;
+}
+form.checkSel{
+    margin-left: 0;
+    align: center;
+}
+.list{
+    display: none;
+}
+.show{
+    display: block;
+}
+.list.show{
+    max-block-size: 250px;
+    min-block-size: 250px;
+    overflow-y: scroll;
+    
+}
+.rotate180{
+    transform: rotate(180deg);
+}
+.dropdown{
+    font-family: system-ui,"Segoe UI","Liberation Sans",sans-serif;
+    position: relative;
+    display: inline-block;
+    font-size: 13px;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+
+}
+.dropdown * {
+    box-sizing: border-box;
+}
+.selected {
+    background: #0095ff;
+    color: #fff;
+    display: flex;
+    line-height: 1.15385;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    font-weight: 400;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s;
+    border-radius: 3px;
+    box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+    padding: 8px .8em;
+}
+.csmName {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+.selected-clicked {
+    border: 4px, solid, #000;
+    box-shadow: 0 0 0.8em #5b9cff;
+}
+.selected:hover {
+    background: #07c;
+}
+.caret {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: 0.3s;
+}
+.caret-rotate {
+    transform: rotate(180deg);
+}
+.csmMenu {
+    list-style: none;
+    padding: 0.2em 0.5em;
+    background: #323741;
+    border: 1px #000 solid;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    position: absolute;
+    color:#fff;
+    top: 3em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.2s;
+    z-index: 1;
+}
+.csmMenu li {
+    padding: 0.7em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.csmMenu li:hover{
+    background: #b4f5ffa4
+}
+/*.active {
+    background: #0095ff;
+}*/
+.menu-open {
+    display: block;
+    opacity: 1;
+}
