@@ -7,7 +7,7 @@ function initializeDB(){
     const db = mySql.createConnection({
         host      : 'localhost',
         user      : 'root',
-        password  : '',
+        password  : 'dbPass',
         database  : 'dbName'
     });
 
